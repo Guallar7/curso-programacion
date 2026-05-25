@@ -60,9 +60,11 @@ Si en algún momento queréis crear un programa para que se suba en vuestra intr
 
 Para pequeños ejecutables, recomiendo crear archivos tipo python, y posteriormente pedirle a la IA que te explique cómo convertirlo en un archivo ejecutable (que en Windows sería un .exe).
 
-***Skills (Claude):*** instrucciones/prompts preconfigurados que le dicen a Claude cómo comportarse en una tarea concreta. Pueden ser simples instrucciones o comandos de programación concretos. Ejemplo: AI template.
+***Skills:*** instrucciones reutilizables en una carpeta con `SKILL.md`; preparan al agente para una tarea concreta sin repetir el mismo prompt cada vez.
 
-***Extensiones (IDE):*** Las extensiones son el equivalente a las skills en Antigravity. Permiten conectar Antigravity con otras herramientas. 
+- ***OpenAI Codex:*** documentación: [Agent Skills - Codex](https://developers.openai.com/codex/skills). Carpeta oficial de usuario: `C:\Users\david\.agents\skills\`; en este equipo también hay skills instaladas en `C:\Users\david\.codex\skills\`.
+- ***Claude Code:*** documentación: [Extend Claude with skills](https://docs.claude.com/en/docs/claude-code/skills). Carpeta personal: `C:\Users\david\.claude\skills\`; carpeta de proyecto: `.claude\skills\`.
+- ***Antigravity:*** documentación: [Agent Skills](https://antigravity.google/docs/skills). Carpeta global documentada: `C:\Users\david\.gemini\antigravity\skills\`; carpeta de proyecto: `.agents\skills\`.
 
 
 # Ideas para programas

@@ -1,6 +1,7 @@
 ---
 theme: default
-class: text-center
+layout: cover
+class: cover-slide
 highlighter: shiki
 lineNumbers: false
 info: |
@@ -10,6 +11,8 @@ drawings:
   persist: false
 transition: slide-left
 title: Conceptos
+themeConfig:
+  primary: '#0f766e'
 ---
 
 # Conceptos
@@ -36,26 +39,26 @@ Modelo entrenado con una cantidad masiva de datos que trabaja prediciendo el sig
 
 # Modelos mencionados
 
-<div class="grid grid-cols-4 gap-3 mt-6 text-[10px] leading-tight">
-  <a href="https://chatgpt.com/" target="_blank" class="block text-inherit no-underline rounded-lg overflow-hidden bg-white shadow-sm text-left" style="border: 1px solid #e5e7eb !important; text-decoration: none !important; color: inherit !important;">
-    <img :src="'./downloads/chatgpt-access.png'" class="h-34 w-full object-cover object-top" />
-    <strong class="block px-3 pt-2 text-sm">ChatGPT</strong>
-    <span class="block px-3 pb-2 opacity-70 break-all">https://chatgpt.com/</span>
+<div class="tool-grid cols-4">
+  <a href="https://chatgpt.com/" target="_blank" class="tool-card">
+    <img :src="'./downloads/chatgpt-access.png'" />
+    <strong>ChatGPT</strong>
+    <span>https://chatgpt.com/</span>
   </a>
-  <a href="https://claude.ai/" target="_blank" class="block text-inherit no-underline rounded-lg overflow-hidden bg-white shadow-sm text-left" style="border: 1px solid #e5e7eb !important; text-decoration: none !important; color: inherit !important;">
-    <img :src="'./downloads/claude-access.png'" class="h-34 w-full object-cover object-top" />
-    <strong class="block px-3 pt-2 text-sm">Claude</strong>
-    <span class="block px-3 pb-2 opacity-70 break-all">https://claude.ai/</span>
+  <a href="https://claude.ai/" target="_blank" class="tool-card">
+    <img :src="'./downloads/claude-access.png'" />
+    <strong>Claude</strong>
+    <span>https://claude.ai/</span>
   </a>
-  <a href="https://gemini.google.com/" target="_blank" class="block text-inherit no-underline rounded-lg overflow-hidden bg-white shadow-sm text-left" style="border: 1px solid #e5e7eb !important; text-decoration: none !important; color: inherit !important;">
-    <img :src="'./downloads/gemini-access.png'" class="h-34 w-full object-cover object-top" />
-    <strong class="block px-3 pt-2 text-sm">Gemini</strong>
-    <span class="block px-3 pb-2 opacity-70 break-all">https://gemini.google.com/</span>
+  <a href="https://gemini.google.com/" target="_blank" class="tool-card">
+    <img :src="'./downloads/gemini-access.png'" />
+    <strong>Gemini</strong>
+    <span>https://gemini.google.com/</span>
   </a>
-  <a href="https://github.com/features/copilot" target="_blank" class="block text-inherit no-underline rounded-lg overflow-hidden bg-white shadow-sm text-left" style="border: 1px solid #e5e7eb !important; text-decoration: none !important; color: inherit !important;">
-    <img :src="'./downloads/copilot-access.png'" class="h-34 w-full object-cover object-top" />
-    <strong class="block px-3 pt-2 text-sm">Copilot</strong>
-    <span class="block px-3 pb-2 opacity-70 break-all">https://github.com/features/copilot</span>
+  <a href="https://copilot.microsoft.com/" target="_blank" class="tool-card">
+    <img :src="'./downloads/copilot-access.png'" />
+    <strong>Copilot</strong>
+    <span>https://copilot.microsoft.com/</span>
   </a>
 </div>
 
@@ -69,13 +72,13 @@ Instrucciones que le damos al LLM para que genere código o texto.
 
 # Token
 
-<div class="grid grid-cols-5 gap-6 items-start mt-4">
-  <div class="col-span-2">
+<div class="token-layout">
+  <div class="token-copy">
     <p>Unidad mínima de texto que el LLM puede procesar.</p>
     <p>Como los morfemas que se estudiaban en lengua.</p>
-    <a href="https://platform.openai.com/tokenizer" target="_blank" class="inline-block mt-6 px-5 py-3 rounded-lg text-inherit no-underline shadow-sm" style="border: 1px solid #d1d5db !important; outline: none !important; text-decoration: none !important;">OpenAI Tokenizer<br />https://platform.openai.com/tokenizer</a>
+    <a href="https://platform.openai.com/tokenizer" target="_blank" class="token-link">OpenAI Tokenizer<span>https://platform.openai.com/tokenizer</span></a>
   </div>
-  <a href="https://platform.openai.com/tokenizer" target="_blank" class="col-span-3 block text-inherit no-underline rounded-lg overflow-hidden shadow-sm bg-white" style="border: 1px solid #e5e7eb !important; text-decoration: none !important; color: inherit !important;"><img :src="'./downloads/tokenizer-example.png'" style="height: 27rem; width: 100%; object-fit: contain; object-position: top; display: block;" /></a>
+  <a href="https://platform.openai.com/tokenizer" target="_blank" class="token-shot"><img :src="'./downloads/tokenizer-example.png'" /></a>
 </div>
 
 ---
@@ -102,16 +105,16 @@ Python es uno de los lenguajes mencionados en el borrador.
 
 JavaScript puede usarse en backend con Node.js.
 
-<div class="grid grid-cols-2 gap-4 mt-6 text-[10px] leading-tight">
-  <a href="https://www.python.org/downloads/" target="_blank" class="block text-inherit no-underline rounded-lg overflow-hidden bg-white shadow-sm text-left" style="border: 1px solid #e5e7eb !important; text-decoration: none !important; color: inherit !important;">
-    <img :src="'./downloads/python-download.png'" class="h-40 w-full object-cover object-top" />
-    <strong class="block px-3 pt-2 text-sm">Python</strong>
-    <span class="block px-3 pb-2 opacity-70 break-all">https://www.python.org/downloads/</span>
+<div class="tool-grid cols-2">
+  <a href="https://www.python.org/downloads/" target="_blank" class="tool-card">
+    <img :src="'./downloads/python-download.png'" />
+    <strong>Python</strong>
+    <span>https://www.python.org/downloads/</span>
   </a>
-  <a href="https://nodejs.org/en/download" target="_blank" class="block text-inherit no-underline rounded-lg overflow-hidden bg-white shadow-sm text-left" style="border: 1px solid #e5e7eb !important; text-decoration: none !important; color: inherit !important;">
-    <img :src="'./downloads/nodejs-download.png'" class="h-40 w-full object-cover object-top" />
-    <strong class="block px-3 pt-2 text-sm">Node.js</strong>
-    <span class="block px-3 pb-2 opacity-70 break-all">https://nodejs.org/en/download</span>
+  <a href="https://nodejs.org/en/download" target="_blank" class="tool-card">
+    <img :src="'./downloads/nodejs-download.png'" />
+    <strong>Node.js</strong>
+    <span>https://nodejs.org/en/download</span>
   </a>
 </div>
 
@@ -131,11 +134,11 @@ Programa gratuito diseñado para el control de versiones de software.
 
 Actúa en local.
 
-<div class="max-w-lg mx-auto mt-6 text-[10px] leading-tight">
-  <a href="https://git-scm.com/downloads" target="_blank" class="block text-inherit no-underline rounded-lg overflow-hidden bg-white shadow-sm text-left" style="border: 1px solid #e5e7eb !important; text-decoration: none !important; color: inherit !important;">
-    <img :src="'./downloads/git-download.png'" class="h-40 w-full object-cover object-top" />
-    <strong class="block px-3 pt-2 text-sm">Git</strong>
-    <span class="block px-3 pb-2 opacity-70 break-all">https://git-scm.com/downloads</span>
+<div class="single-tool">
+  <a href="https://git-scm.com/downloads" target="_blank" class="tool-card">
+    <img :src="'./downloads/git-download.png'" />
+    <strong>Git</strong>
+    <span>https://git-scm.com/downloads</span>
   </a>
 </div>
 
@@ -147,11 +150,11 @@ Repositorio online donde frecuentemente los programadores suben su contenido.
 
 Puede contener proyectos públicos o privados.
 
-<div class="max-w-lg mx-auto mt-6 text-[10px] leading-tight">
-  <a href="https://github.com/" target="_blank" class="block text-inherit no-underline rounded-lg overflow-hidden bg-white shadow-sm text-left" style="border: 1px solid #e5e7eb !important; text-decoration: none !important; color: inherit !important;">
-    <img :src="'./downloads/github-access.png'" class="h-40 w-full object-cover object-top" />
-    <strong class="block px-3 pt-2 text-sm">GitHub</strong>
-    <span class="block px-3 pb-2 opacity-70 break-all">https://github.com/</span>
+<div class="single-tool">
+  <a href="https://github.com/" target="_blank" class="tool-card">
+    <img :src="'./downloads/github-access.png'" />
+    <strong>GitHub</strong>
+    <span>https://github.com/</span>
   </a>
 </div>
 
@@ -185,11 +188,11 @@ Archivos en los que se almacena información.
 
 Clave para programas que requieren recordar información de una sesión a otra.
 
-<div class="max-w-lg mx-auto mt-6 text-[10px] leading-tight">
-  <a href="https://supabase.com/" target="_blank" class="block text-inherit no-underline rounded-lg overflow-hidden bg-white shadow-sm text-left" style="border: 1px solid #e5e7eb !important; text-decoration: none !important; color: inherit !important;">
-    <img :src="'./downloads/supabase-access.png'" class="h-40 w-full object-cover object-top" />
-    <strong class="block px-3 pt-2 text-sm">Supabase</strong>
-    <span class="block px-3 pb-2 opacity-70 break-all">https://supabase.com/</span>
+<div class="single-tool">
+  <a href="https://supabase.com/" target="_blank" class="tool-card">
+    <img :src="'./downloads/supabase-access.png'" />
+    <strong>Supabase</strong>
+    <span>https://supabase.com/</span>
   </a>
 </div>
 
@@ -211,25 +214,36 @@ Protocolos que definen cómo un LLM puede exponer y usar herramientas externas.
 
 # Skills
 
-Instrucciones o prompts preconfigurados que le dicen a Claude cómo comportarse en una tarea concreta.
+Instrucciones reutilizables en una carpeta con `SKILL.md`.
 
-Pueden ser simples instrucciones o comandos de programación concretos.
+Preparan al agente para una tarea concreta.
 
----
-
-# Extensiones
-
-Equivalente a las skills en Antigravity.
-
-Permiten conectar Antigravity con otras herramientas.
-
-<div class="max-w-lg mx-auto mt-6 text-[10px] leading-tight">
-  <a href="https://antigravity.google/download" target="_blank" class="block text-inherit no-underline rounded-lg overflow-hidden bg-white shadow-sm text-left" style="border: 1px solid #e5e7eb !important; text-decoration: none !important; color: inherit !important;">
-    <img :src="'./downloads/antigravity-download.png'" class="h-40 w-full object-cover object-top" />
-    <strong class="block px-3 pt-2 text-sm">Antigravity</strong>
-    <span class="block px-3 pb-2 opacity-70 break-all">https://antigravity.google/download</span>
-  </a>
-</div>
+<table class="skills-table">
+  <thead>
+    <tr>
+      <th>Entorno</th>
+      <th>Documentación</th>
+      <th>Carpeta</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>OpenAI Codex</td>
+      <td><a href="https://developers.openai.com/codex/skills" target="_blank">developers.openai.com/codex/skills</a></td>
+      <td><code>~/.agents/skills</code><br><code>~/.codex/skills</code></td>
+    </tr>
+    <tr>
+      <td>Claude Code</td>
+      <td><a href="https://docs.claude.com/en/docs/claude-code/skills" target="_blank">docs.claude.com/.../skills</a></td>
+      <td><code>~/.claude/skills</code><br><code>.claude/skills</code></td>
+    </tr>
+    <tr>
+      <td>Antigravity</td>
+      <td><a href="https://antigravity.google/docs/skills" target="_blank">antigravity.google/docs/skills</a></td>
+      <td><code>~/.gemini/antigravity/skills</code><br><code>.agents/skills</code></td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 layout: section
@@ -241,10 +255,10 @@ layout: section
 
 # Guallar7/app-builder
 
-<a href="https://github.com/Guallar7/app-builder" target="_blank" class="block max-w-4xl mx-auto mt-5 text-inherit no-underline rounded-lg overflow-hidden bg-white shadow-sm text-left text-[10px]" style="border: 1px solid #e5e7eb !important; text-decoration: none !important; color: inherit !important;">
-  <img :src="'./downloads/app-builder-repo.png'" class="h-92 w-full object-cover object-top" />
-  <strong class="block px-3 pt-2 text-sm">Guallar7/app-builder</strong>
-  <span class="block px-3 pb-2 opacity-70 break-all">https://github.com/Guallar7/app-builder</span>
+<a href="https://github.com/Guallar7/app-builder" target="_blank" class="repo-card">
+  <img :src="'./downloads/app-builder-repo.png'" />
+  <strong>Guallar7/app-builder</strong>
+  <span>https://github.com/Guallar7/app-builder</span>
 </a>
 
 ---
@@ -265,11 +279,11 @@ Sólo si sobra tiempo.
 
 Ejemplo: formulario satisfacción de consulta.
 
-<div class="max-w-lg mx-auto mt-6 text-[10px] leading-tight">
-  <a href="https://developers.google.com/apps-script" target="_blank" class="block text-inherit no-underline rounded-lg overflow-hidden bg-white shadow-sm text-left" style="border: 1px solid #e5e7eb !important; text-decoration: none !important; color: inherit !important;">
-    <img :src="'./downloads/apps-script-access.png'" class="h-40 w-full object-cover object-top" />
-    <strong class="block px-3 pt-2 text-sm">Apps Script</strong>
-    <span class="block px-3 pb-2 opacity-70 break-all">https://developers.google.com/apps-script</span>
+<div class="single-tool">
+  <a href="https://developers.google.com/apps-script" target="_blank" class="tool-card">
+    <img :src="'./downloads/apps-script-access.png'" />
+    <strong>Apps Script</strong>
+    <span>https://developers.google.com/apps-script</span>
   </a>
 </div>
 
@@ -279,10 +293,10 @@ Ejemplo: formulario satisfacción de consulta.
 
 Ejemplo: buzón de sugerencias.
 
-<div class="max-w-lg mx-auto mt-6 text-[10px] leading-tight">
-  <a href="https://www.make.com/en/register" target="_blank" class="block text-inherit no-underline rounded-lg overflow-hidden bg-white shadow-sm text-left" style="border: 1px solid #e5e7eb !important; text-decoration: none !important; color: inherit !important;">
-    <img :src="'./downloads/make-access.png'" class="h-40 w-full object-cover object-top" />
-    <strong class="block px-3 pt-2 text-sm">Make</strong>
-    <span class="block px-3 pb-2 opacity-70 break-all">https://www.make.com/en/register</span>
+<div class="single-tool">
+  <a href="https://www.make.com/en/register" target="_blank" class="tool-card">
+    <img :src="'./downloads/make-access.png'" />
+    <strong>Make</strong>
+    <span>https://www.make.com/en/register</span>
   </a>
 </div>
