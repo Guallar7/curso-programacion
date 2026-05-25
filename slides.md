@@ -230,7 +230,7 @@ Preparan al agente para una tarea concreta.
     <tr>
       <td>OpenAI Codex</td>
       <td><a href="https://developers.openai.com/codex/skills" target="_blank">developers.openai.com/codex/skills</a></td>
-      <td><code>~/.agents/skills</code><br><code>~/.codex/skills</code></td>
+      <td><code>~/.agents/skills</code><br><code>.agents/skills</code></td>
     </tr>
     <tr>
       <td>Claude Code</td>
