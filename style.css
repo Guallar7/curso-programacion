@@ -214,6 +214,13 @@
   white-space: nowrap;
 }
 
+.small-reference {
+  margin-top: 0.65rem;
+  color: var(--deck-muted) !important;
+  font-size: 0.72rem !important;
+  line-height: 1.25 !important;
+}
+
 .token-layout {
   display: grid;
   grid-template-columns: 0.38fr 0.62fr;

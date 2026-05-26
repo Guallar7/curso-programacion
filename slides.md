@@ -245,6 +245,10 @@ Preparan al agente para una tarea concreta.
   </tbody>
 </table>
 
+<p class="small-reference">
+  Ejemplo: <a href="https://www.aitmpl.com/" target="_blank">aitmpl.com</a>
+</p>
+
 ---
 layout: section
 ---
