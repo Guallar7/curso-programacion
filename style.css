@@ -64,7 +64,7 @@
 .slidev-layout.cover-slide {
   display: grid;
   align-content: center;
-  padding-left: 6rem;
+  padding-left: 6.4rem;
 }
 
 .slidev-layout.cover-slide::before {
@@ -75,12 +75,17 @@
 }
 
 .slidev-layout.cover-slide h1 {
-  font-size: 4.1rem;
-  margin-bottom: 1rem;
+  max-width: 48rem;
+  font-size: 2.8rem;
+  line-height: 1.12;
+  font-weight: 620;
+  margin-bottom: 1.25rem;
 }
 
 .slidev-layout.cover-slide h2 {
-  font-size: 1.7rem;
+  color: var(--deck-muted);
+  font-size: 1.2rem;
+  font-weight: 430;
 }
 
 .slidev-layout.cover-slide p {
