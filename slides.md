@@ -295,11 +295,17 @@ routeAlias: automatizaciones
 
 Ejemplo: formulario satisfacción de consulta.
 
-<div class="single-tool">
-  <a href="https://developers.google.com/apps-script" target="_blank" class="tool-card">
-    <img :src="'./downloads/apps-script-access.png'" />
-    <strong>Apps Script</strong>
-    <span>https://developers.google.com/apps-script</span>
+<div class="apps-script-layout">
+  <div class="single-tool">
+    <a href="https://developers.google.com/apps-script" target="_blank" class="tool-card">
+      <img :src="'./downloads/apps-script-access.png'" />
+      <strong>Apps Script</strong>
+      <span>https://developers.google.com/apps-script</span>
+    </a>
+  </div>
+  <a href="https://drive.google.com/drive/folders/1l-qomm67lEX2cHuFzYmDMTztf0rkCPtb" target="_blank" class="qr-card">
+    <img src="./QR-apps-script.png" alt="QR material Apps Script" />
+    <span>Material de apoyo</span>
   </a>
 </div>
 
