@@ -5,21 +5,18 @@ class: cover-slide
 highlighter: shiki
 lineNumbers: false
 info: |
-  ## Conceptos
-  Deck basado en Borrador del curso.md.
+  ## Programación en Inteligencia Artificial y Aplicaciones Prácticas para Usuarios Avanzados
 drawings:
   persist: false
 transition: slide-left
-title: Conceptos
+title: Programación en Inteligencia Artificial y Aplicaciones Prácticas para Usuarios Avanzados
 themeConfig:
   primary: '#0f766e'
 ---
 
-# Conceptos
+# Programación en Inteligencia Artificial y Aplicaciones Prácticas para Usuarios Avanzados
 
-## Borrador del curso
-
-Alex · David
+## David Guallar · Alejandro Venegas
 
 ---
 
