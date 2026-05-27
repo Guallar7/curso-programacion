@@ -289,8 +289,6 @@ routeAlias: automatizaciones
 
 # Automatizaciones
 
-Sólo si sobra tiempo.
-
 ---
 
 # Apps Script
