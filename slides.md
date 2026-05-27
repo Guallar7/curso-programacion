@@ -22,7 +22,20 @@ themeConfig:
 Alex · David
 
 ---
+
+# Índice
+
+<nav class="index-list">
+  <Link to="conceptos-base">Conceptos base</Link>
+  <Link to="arquitectura-basica">Arquitectura muy básica</Link>
+  <Link to="agentes-herramientas">Agentes, herramientas e integración</Link>
+  <Link to="empecemos">EMPECEMOS A PROGRAMAR!</Link>
+  <Link to="automatizaciones">Automatizaciones</Link>
+</nav>
+
+---
 layout: section
+routeAlias: conceptos-base
 ---
 
 # Conceptos base
@@ -160,6 +173,7 @@ Puede contener proyectos públicos o privados.
 
 ---
 layout: section
+routeAlias: arquitectura-basica
 ---
 
 # Arquitectura muy básica
@@ -198,6 +212,7 @@ Clave para programas que requieren recordar información de una sesión a otra.
 
 ---
 layout: section
+routeAlias: agentes-herramientas
 ---
 
 # Agentes, herramientas e integración
@@ -251,6 +266,7 @@ Preparan al agente para una tarea concreta.
 
 ---
 layout: section
+routeAlias: empecemos
 ---
 
 # EMPECEMOS A PROGRAMAR!
@@ -267,6 +283,7 @@ layout: section
 
 ---
 layout: section
+routeAlias: automatizaciones
 ---
 
 # Automatizaciones

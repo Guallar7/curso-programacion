@@ -108,6 +108,26 @@
   text-align: center;
 }
 
+.index-list {
+  display: grid;
+  gap: 0.85rem;
+  margin-top: 1.4rem;
+  max-width: 40rem;
+}
+
+.index-list a {
+  display: block;
+  padding: 0.72rem 0;
+  color: var(--deck-ink);
+  font-size: 1.45rem;
+  line-height: 1.2;
+  border-bottom: 1px solid var(--deck-line);
+}
+
+.index-list a:hover {
+  color: var(--deck-accent);
+}
+
 .tool-grid {
   display: grid;
   gap: 0.9rem;
