@@ -203,3 +203,5 @@ Despues propone tres mejoras concretas para que el curso sea mas claro para medi
 ## Frase para recordar
 
 Markdown es una historia clinica del proyecto: ordena informacion, deja trazabilidad y ayuda a que otra persona o una IA entiendan el caso.
+
+Referencia: [documento de apoyo](https://drive.google.com/file/d/1FznuIDDv3xL_-oG3j748eFpo2WULx85z/edit).
