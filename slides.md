@@ -5,6 +5,7 @@ class: game-slide
 highlighter: shiki
 lineNumbers: false
 lang: es
+favicon: ''
 drawings:
   persist: false
 transition: slide-left
