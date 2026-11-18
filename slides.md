@@ -4,12 +4,16 @@ layout: cover
 class: cover-slide
 highlighter: shiki
 lineNumbers: false
-info: |
-  ## Programación en Inteligencia Artificial y Aplicaciones Prácticas para Usuarios Avanzados
+lang: es
 drawings:
   persist: false
 transition: slide-left
-title: Programación en Inteligencia Artificial y Aplicaciones Prácticas para Usuarios Avanzados
+title: Programación con IA para profesionales clínicos
+titleTemplate: '%s'
+seoMeta:
+  ogDescription: Taller práctico para profesionales clínicos con David Guallar y Alejandro Venegas. Segunda edición, 24 de noviembre de 2026.
+  ogUrl: https://guallar7.github.io/curso-programacion/
+  ogImage: https://guallar7.github.io/curso-programacion/curso-ia-2026-og.jpg
 themeConfig:
   primary: '#0f766e'
 ---
