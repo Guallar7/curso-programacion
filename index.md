@@ -1,5 +1,7 @@
 # Programa Formativo: Programación con Inteligencia Artificial desde Cero
 
+**Segunda edición:** 24 de noviembre de 2026 · David Guallar y Alejandro Venegas.
+
 **Objetivo:** Aprender a usar la Inteligencia Artificial para programar y automatizar tareas en tu entorno laboral, asumiendo cero conocimientos técnicos previos.
 
 ## Temario

@@ -18,6 +18,8 @@ themeConfig:
 
 ## David Guallar · Alejandro Venegas
 
+Segunda edición · 24 de noviembre de 2026
+
 ---
 
 # Índice
@@ -29,6 +31,16 @@ themeConfig:
   <Link to="empecemos">EMPECEMOS A PROGRAMAR!</Link>
   <Link to="automatizaciones">Automatizaciones</Link>
 </nav>
+
+---
+
+# Antes de empezar
+
+- Tened a mano vuestro portátil y el cargador.
+- Abrid la aplicación de IA que hayáis elegido (Codex, Claude o Antigravity) y comprobad que habéis iniciado sesión.
+- Si habéis instalado Node.js, Python y Git, comprobad que responden en la terminal.<br>
+  `node --version`, `python --version` (o `python3 --version`) y `git --version`.
+- Comprobad que podéis acceder a vuestra cuenta de GitHub.
 
 ---
 layout: section

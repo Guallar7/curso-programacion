@@ -4,6 +4,10 @@
 
 **Instructores:** Alejandro & David
 
+**Segunda edición:** 24 de noviembre de 2026.
+
+Para la práctica, trae tu portátil y el cargador. Es muy recomendable instalar Node.js, Python y Git y tener una cuenta gratuita en GitHub. Prepara también una aplicación de IA de escritorio (Codex, Claude o Antigravity) y comprueba que puedes iniciar sesión.
+
 ---
 
 ## 📋 Descripción del Curso
