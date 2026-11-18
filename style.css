@@ -1,3 +1,7 @@
+#app:not(:empty) ~ #course-fallback {
+  display: none;
+}
+
 .slidev-layout {
   --deck-bg: #fbfaf6;
   --deck-ink: #1d1b16;
