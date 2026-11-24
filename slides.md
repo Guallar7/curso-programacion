@@ -1,7 +1,7 @@
 ---
 theme: default
 layout: default
-class: game-slide
+class: materials-slide
 highlighter: shiki
 lineNumbers: false
 lang: es
@@ -17,6 +17,23 @@ seoMeta:
   ogImage: https://guallar7.github.io/curso-programacion/curso-ia-2026-og.jpg
 themeConfig:
   primary: '#0f766e'
+---
+
+# Recibe los materiales del curso
+
+<div class="materials-layout">
+  <div>
+    <p>Escanea el QR y <strong>envía el correo</strong> que se abre.</p>
+    <p>Guardaremos tu dirección para enviarte el enlace a los materiales. La solicitud es voluntaria.</p>
+  </div>
+  <div class="materials-request">
+    <img :src="'./solicitar-materiales-qr.png'" alt="Código QR para abrir el correo de solicitud de materiales" />
+    <a href="mailto:davidguallargarcia@gmail.com?subject=MATERIALES%20PROGRAMACION%20IA%20SALUD%202026-11-24&amp;body=Quiero%20los%20materiales%20del%20curso%20de%20Programaci%C3%B3n%20con%20IA%20del%20SALUD.">Abrir correo</a>
+  </div>
+</div>
+
+---
+class: game-slide
 ---
 
 # Un juego antes de empezar

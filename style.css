@@ -65,6 +65,36 @@
   border-bottom: 1px solid rgba(15, 118, 110, 0.32);
 }
 
+.materials-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 18rem;
+  align-items: center;
+  gap: 3rem;
+}
+
+.materials-request {
+  display: grid;
+  justify-items: center;
+  gap: 0.7rem;
+}
+
+.materials-request img {
+  width: 100%;
+  border: 1px solid var(--deck-line);
+  border-radius: 0.6rem;
+}
+
+.materials-request a {
+  padding: 0.35rem 0.8rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.materials-request a:focus-visible {
+  outline: 2px solid var(--deck-accent);
+  outline-offset: 3px;
+}
+
 .game-links {
   display: grid;
   grid-template-columns: minmax(0, 1fr) 14rem;
